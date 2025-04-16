@@ -11,6 +11,7 @@ export type LeagueSponsor = {
 }
 
 export type League = {
+  id: string
   title: string
   imageSrc: string
   status: LeagueStatus
@@ -20,6 +21,7 @@ export type League = {
 
 export const mockLeagues: Array<League> = [
   {
+    id: '1',
     title: 'St. Louis Pro Season Points League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.DraftLive,
@@ -27,6 +29,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '2',
     title: 'Washington Pro Season Points League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.PreDraft,
@@ -34,6 +37,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '3',
     title: 'New York Pro H2H Points PPR League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.DraftLive,
@@ -41,6 +45,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '4',
     title: 'Washington Pro Season Points League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.PreDraft,
@@ -48,6 +53,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '5',
     title: 'New York Pro H2H Points PPR League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.PostDraft,
@@ -55,6 +61,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '6',
     title: 'New York Pro H2H Points PPR League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.Archived,
@@ -62,6 +69,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '7',
     title: 'Washington Pro Season Points League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.Archived,
@@ -69,6 +77,7 @@ export const mockLeagues: Array<League> = [
     year: '2023',
   },
   {
+    id: '8',
     title: 'New York Pro H2H Points PPR League',
     imageSrc: '/football-image.png',
     status: LeagueStatus.Archived,

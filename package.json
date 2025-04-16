@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "upwork-trial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
     "@types/lodash": "^4.17.16",
     "clsx": "^2.1.1",
     "lodash": "^4.17.21",
     "next": "15.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swapy": "^1.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

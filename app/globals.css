@@ -64,3 +64,8 @@ body {
   box-shadow: 0 0 0 0.5px color-mix(in srgb, var(--badge-primary) 20%, transparent),
     /* thin outline */ 0 0 8px 0 color-mix(in srgb, var(--badge-primary) 10%, transparent); /* soft glow */
 }
+
+*[data-swapy-dragging],
+*[data-swapy-highlighted] {
+  transform: rotate(-3deg);
+}
